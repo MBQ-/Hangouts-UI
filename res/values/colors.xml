@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="holo_light_ab">#ffe4e4e4</color>
+    <color name="conversation_bg_color">#ffe5e5e5</color>
+    <color name="conversation_list_bg_color">#fff9f9f9</color>
+    <color name="transparent_white">#ffffffff</color>
+    <color name="very_dark_gray">#ff333333</color>
+    <color name="dark_gray">#ff666666</color>
+    <color name="pressed_holo_light">#cc33b5e5</color>
+    <color name="pc_cat_gray">#ff3b3b3b</color>
+    <color name="pc_light_gray">#ff4d4d4d</color>
+    <color name="pc_gray">#ff333333</color>
+    <color name="pc_blue">#ff0099cc</color>
+    <color name="pc_white">#ffffffff</color>
+    <color name="pc_black">#ff141414</color>
+    <color name="pc_red">#ffff0000</color>
+    <color name="pane_slider_fade_color">#80e5e5e5</color>
+</resources>

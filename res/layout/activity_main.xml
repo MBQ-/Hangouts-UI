@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SlidingPaneLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/sliding_pane_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff5f5f5"
+    android:clipChildren="false"
+    android:clipToPadding="false" >
+
+    <ListView
+        android:id="@id/left_pane"
+        style="@style/wtfLV"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="start"
+        android:background="#ffffffff"
+        android:choiceMode="singleChoice"
+        android:dividerHeight="1.0dip"
+        android:listDivider="@drawable/lv_phone" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@id/content_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fontFamily="RobotoCondensed-Regular" >
+
+            <ListView
+                android:id="@id/universalListView"
+                android:layout_width="350.0dip"
+                android:layout_height="330.0dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:choiceMode="singleChoice"
+                android:divider="@drawable/lv_phone"
+                android:dividerHeight="1.0dip" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</android.support.v4.widget.SlidingPaneLayout>

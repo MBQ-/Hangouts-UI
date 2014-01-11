@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="setting_border_padding_left_right">16.0dip</dimen>
+    <dimen name="gf_list_item_height">60.0dip</dimen>
+    <dimen name="gf_list_item_padding">12.0dip</dimen>
+    <dimen name="fadingEdgeLength">12.0dip</dimen>
+    <dimen name="widget_margin">0.0dip</dimen>
+    <dimen name="xp_home_conversation_list_contracted_width">120.0dip</dimen>
+    <dimen name="xp_home_conversation_list_parallax_distance">72.0dip</dimen>
+</resources>
